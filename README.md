@@ -1,32 +1,32 @@
-# 🤖 AI Document Chatbot
+#  AI Document Chatbot
 
 An AI-powered web application that allows users to upload documents and ask questions to extract relevant information using NLP techniques.
 
 ---
 
-## 🌍 Live Demo
+##  Live Demo
 
-👉 https://ai-document-chatbot-cdvc27excvb9takfpxbmbd.streamlit.app/
+ https://ai-document-chatbot-cdvc27excvb9takfpxbmbd.streamlit.app/
 
 ---
 
-## 📸 Screenshot
+##  Screenshot
 
 ![App Screenshot](screenshot.png)
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 📄 Upload your own text document  
-- 💬 Ask questions in natural language  
-- 🔍 Semantic search using NLP  
-- ⚡ Real-time answers  
-- 🌐 Interactive web interface using Streamlit  
+-  Upload your own text document  
+-  Ask questions in natural language  
+-  Semantic search using NLP  
+-  Real-time answers  
+-  Interactive web interface using Streamlit  
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python  
 - Streamlit  
@@ -36,7 +36,7 @@ An AI-powered web application that allows users to upload documents and ask ques
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. The uploaded document is split into smaller chunks  
 2. Text is converted into numerical vectors using TF-IDF  
@@ -46,7 +46,7 @@ An AI-powered web application that allows users to upload documents and ask ques
 
 ---
 
-## ▶️ How to Run Locally
+## How to Run Locally
 
 1. Clone the repository:
 git clone https://github.com/BunnyGitRepo/ai-document-chatbot.git
@@ -68,7 +68,7 @@ streamlit run app_ui.py
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 
 - Support for PDF and DOCX files  
 - Use advanced embeddings (OpenAI / Sentence Transformers)  
@@ -77,7 +77,7 @@ streamlit run app_ui.py
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Rohan Bhargav**
 
@@ -86,6 +86,6 @@ streamlit run app_ui.py
 
 ---
 
-## ⭐ Acknowledgements
+## Acknowledgements
 
 This project demonstrates practical implementation of NLP concepts such as text vectorization and semantic search in a real-world application.
