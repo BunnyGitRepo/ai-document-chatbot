@@ -82,7 +82,7 @@ streamlit run app_ui.py
 **Rohan Bhargav**
 
 - GitHub: https://github.com/BunnyGitRepo  
-- LinkedIn: (add your LinkedIn link here)
+- LinkedIn: https://www.linkedin.com/in/rohanbhargav009/
 
 ---
 
