@@ -8,16 +8,15 @@ st.divider()
 
 uploaded_file = st.file_uploader("📄 Upload your document", type=["txt"])
 
+query = st.text_input("💬 Ask a question:")
+
 if uploaded_file:
     text = uploaded_file.read().decode("utf-8")
 
-    # Split text into chunks
     chunks = text.split(".")
 
     vectorizer = TfidfVectorizer()
     X = vectorizer.fit_transform(chunks)
-
-    query = st.text_input("💬 Ask a question:")
 
     if query:
         with st.spinner("🤖 Thinking..."):
@@ -27,3 +26,7 @@ if uploaded_file:
 
             st.subheader("✅ Answer:")
             st.write(chunks[index])
+
+else:
+    if query:
+        st.warning("⚠️ Please upload a document first.")
